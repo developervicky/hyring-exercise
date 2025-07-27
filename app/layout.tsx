@@ -16,6 +16,7 @@ const ibmPlexSans = IBM_Plex_Sans({
 });
 const kodeMono = Kode_Mono({
   variable: "--font-kodeMono",
+  subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
 
@@ -27,16 +28,19 @@ const spaceGrotesk = Space_Grotesk({
 
 const caveat = Caveat({
   variable: "--font-Caveat",
+  subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
 
 const bebasNeue = Bebas_Neue({
   variable: "--font-BebasNeue",
+  subsets: ["latin"],
   weight: "400",
 });
 
 const lora = Lora({
   variable: "--font-Lora",
+  subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
 
